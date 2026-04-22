@@ -14,6 +14,9 @@
 #include <unistd.h>
 
 //place function prototypes here
+
+void rtFun(void);
+
 void JLeyva(void);
 
 void fish(void);
@@ -329,6 +332,7 @@ int main(int argc, char *argv[])
                         }
 			case 57:
                         {
+				rtFun();
                                 puts("room57");
                                 break;
                         }
@@ -439,6 +443,11 @@ int main(int argc, char *argv[])
 
 //place functions here
 
+void rtFun(void)
+{
+	printf("RT");
+}
+
 void JLeyva(void)
 {
 	printf("JL");
@@ -458,6 +467,7 @@ void printInitialsAjewett(void)
 {
 	printf("AJ\n");
 }
+
 void jgFun(void)
 {
 	printf("JGB");	
