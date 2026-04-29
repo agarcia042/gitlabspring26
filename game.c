@@ -15,7 +15,11 @@
 
 //place function prototypes here
 
+void jsl();
+
+
 void dcFun(void);
+
 
 void abFun(void);
 
@@ -378,6 +382,7 @@ int main(int argc, char *argv[])
                         }
 			case 59:
                         {
+				jsl();
                                 puts("room59");
                                 break;
                         }
@@ -479,6 +484,12 @@ int main(int argc, char *argv[])
 //place functions here
 
 
+void jsl(void)
+{
+	printf("JSL\n");
+}
+
+
 
 
 void PogoAM(void)
@@ -563,4 +574,5 @@ void jgFun(void)
 	printf("JGB");	
 
 }
+
 
